@@ -3,16 +3,39 @@
   
   <head>
     <meta charset="UTF-8" />
-    <title></title>
-    <link rel="stylesheet" href="style.css" />
+    <title>UofA Module4 API Code Quiz</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
+    <h1>Coding Quiz Challenge</h1>
   </head>
 
   <body>
+    <div class="quizpage1">
+      <header>
+        <h2>Are you ready to test your knowledge?</h2>
+      </header>
+      <div class="quizcard">
+        <div class="quizcard-header">
+          <h3>To begin click button</h3>
+        </div>
+        <div class="quizcard-button">
+          <button id="quizstart" class="btn">Start quiz</button>
+        </div>
+        <div class ="timerspot">You will have 20 seconds to answer 4 questions.
+          </div><div id="timeEnd"></div>
+        <div class="quizcard-body">
+          <div><p>Please note once you click the timer will start.</p><span id = "myquiz" class="quizQuestions"></span></div>
+        </div>
+        <!-- href to point to 2nd page for scores -->
+        <div class="scores"><a href="indexsolutions.html">Check out scores here</a></div>
+      </div>
+    </div>
 
 
 
-
-    <script src="script.js"></script>
+    <script src="Assets/JS/script.js"></script>
   </body>
 
+  <footer>
+
+  </footer>
 </html>

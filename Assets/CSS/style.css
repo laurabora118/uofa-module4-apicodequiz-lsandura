@@ -1,1 +1,49 @@
 
+header, body, footer {
+    background-color: white;
+    color: blueviolet;
+    position: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 35px 60px;
+    max-width: 900px;
+}
+
+.quizcard-header, .answercard-header {
+    display: block;
+    width: 90%;
+    color: gray
+  }
+  
+  .quizcard-body, .answercard-body {
+    min-height: 100px;
+    font-style: italic;
+  }
+  
+  .quizcard-footer, .answercard-footer {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #e7e9eb;
+    height: 2px;
+  }
+  
+  .btn {
+    border: black;
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 8px 8px 8px 8px;
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .timerspot { 
+    color: orange
+  }
