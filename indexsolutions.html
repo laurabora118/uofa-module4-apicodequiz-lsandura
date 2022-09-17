@@ -18,21 +18,31 @@
             <h3>To see solutions click button</h3>
           </div>
           <div class="answercard-button">
-            <button id="answerstart" class="btn">Get Answers</button>
+            <button id="answersstart" class="abtn">Get Answers</button>
           </div>
           <div class ="timerspot">We hope you enjoyed the quiz.</div>
           <div class="answercard-body">
             <div><p>Thank you.</p><span id = "myanswers" class="answersstart"></span></div>
           </div>
           <div class="quiz"><a href="index.html">Go back to home page to start quiz again</a></div>
-          <div class id = displayscore>
-            <a>Your score is:</a></div>
-          <div class id = savescores><button class="btn-save">Save score</button>
-            <!--<form id="scores">
-                <input type="text" class="scoresname-input w-80" id="name-input" name="name-input" placeholder="Enter your name or initials here"/>
-                <input type="number" class="scorestotal-input w-80" id="scores-input" name="name-input" placeholder="your score"/>
-                <button class="btn-save">Save score</button> -->
+          <div class id = savescores>
+            <form id="scores">
+                <input type="text" class="scoresname-input w-80" id="name-input" name="name-input" placeholder="Enter  name or initials here"/>
+                <div class id = displayscore>
+                  <a>Your score is:</a></div>
+                  <button class="btn-save">Save score</button>
+                  <ul id="pastscore-list"></ul>
             </div>
+            <!-- For append after test is done
+      <div class="pastscores">
+      <h1>User Scores</h1>
+      <form id="pastscores-form" method="POST">
+        <label for="User-Info">Fill in your name: </label>
+        <input type="text" placeholder="uname" name="past-list" id="past" />
+      </form>
+      <p>Last User Score: <span id="final-score">TBD</span></p>
+      <ul id="past-list"></ul>
+    </div> --> 
         </div>
     <script src="Assets/JS/script.js"></script>
   </body>
