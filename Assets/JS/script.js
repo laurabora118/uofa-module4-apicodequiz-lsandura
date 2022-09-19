@@ -179,6 +179,7 @@ var qanswer3 = "3";
 var question4 = "Fill in the blank. Boolean, Number, String, and Object are some examples of JavaScript ______ types.";
 var option4 = "1 - Functional 2 - Data 3 - Variable";
 var qanswer4 = "2";
+//message currently undefined
 var questions = message.split(' ');
 
 
@@ -203,6 +204,7 @@ function showQuestions() {
         questionsleft.textContent = '';
         clearInterval(questionsInterval);
         displayQuestions();
+        return showQuestions;
     }
     }, 1000);
 }
@@ -284,6 +286,7 @@ function displayScore(){
 
 }
 
+var scoresresponse = "scoresresponse for local storage";c
 //local storage for saving high score OR saving high scores
 function SaveScore(){
     var sscores = scoresresponse;
