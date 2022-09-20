@@ -19,6 +19,11 @@ Additional Expectations:
     At the end of the game the user is able to save their initials and their score
     
 Assignment Example Picture:
+Website page 1
+![Site Example](./Assets/Images/Website1.JPG)
+Website page 2
+![Site Example](./Assets/Images/Website2.JPG)
+
 
     
 Repository link where finalzed project can be pulled:
@@ -30,4 +35,4 @@ Git Repository Site that shows finalized projectresults:
 References:
     1 - Assignment criteria received in UofA assignment 
 
-    2 -
+
