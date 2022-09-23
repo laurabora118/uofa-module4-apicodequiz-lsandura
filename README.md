@@ -30,7 +30,7 @@ Repository link where finalzed project can be pulled:
     https://github.com/laurabora118/UofA-Module4-APICodeQuiz-LSandura
 
 Git Repository Site that shows finalized projectresults:
-
+    https://laurabora118.github.io/UofA-Module4-APICodeQuiz-LSandura/
     
 References:
     1 - Assignment criteria received in UofA assignment 
